@@ -1,0 +1,53 @@
+table {
+    border: 1px solid black;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(15, 18, 15);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+}
+
+input[class="symbol-button"] {
+    background-color: gray;
+}
+
+input[class="symbol-buttons"] {
+    background-color: rgb(32, 92, 32);
+}
+
+input[type="text"] {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px;
+    border: 1px solid rgb(237, 229, 229);
+}
+
+tr,
+td {
+    padding: 1px;
+}
+
+h1{
+    text-align: center;
+}
+@media (max-width: 768px) {
+    input[type="button"] {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        font-size: 18px;
+    }
+}
